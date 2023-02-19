@@ -1,0 +1,186 @@
+:root { 
+  --black: #000000;
+  --concord: #7c7c7c80;
+  --purple-heart: #7032db;
+  --tolopea: #150948;
+  --white: #ffffff;
+ 
+  --font-size-l: 23px;
+  --font-size-m: 20px;
+  --font-size-xl: 26px;
+  --font-size-xxl: 50px;
+  --font-size-xxxl: 65px;
+  --font-size-xxxxl: 80px;
+ 
+  --font-family-outfit: "Outfit", Helvetica;
+  --font-family-space_grotesk: "Space Grotesk", Helvetica;
+}
+.spacegrotesk-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.spacegrotesk-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.spacegrotesk-normal-white-26px {
+  color: var(--white);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spacegrotesk-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.outfit-bold-white-80px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+
+/* game */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+main {
+  display:block;
+  height:175px;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-weight: bold;
+  color: #000;
+}
+
+.question {
+text-align: center;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  padding-top: 25px;
+  border-top: 1px solid black;
+}
+
+footer a {
+  float:left;
+  margin:5px;
+}
+
+.pet-image {
+  height: 200px;
+}
+
+.dashboard div {
+  display:block;
+}
+
+.pet-image-container {
+  left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.dashboard {
+  left: 100px;
+  padding:20px;
+  color: white;
+}
+
+.answer-container {
+  margin-top:20px;
+  width: 350px;
+  margin-right: 10px;
+}
+
+.treat-button {
+
+cursor:pointer;
+float: center;
+}
+
+.play-button {
+  left: 100px;
+  cursor:pointer;
+  float: center;
+
+  }
+
+.clean-button {
+  left: 100px;
+  cursor:pointer;
+  float: center;
+  }
+
+.name {
+  color: white;
+}
+.clean {
+  color: white;
+}
+.happiness {
+  color: white;
+}
+
+.button-img {
+  height: 45px;
+  
+}
+#question {
+  text-align: center;
+  color: white;
+}
+
+.game-box {
+margin-top: 15%;
+margin-left: 10%;
+ left: 100px;
+ position: absolute;
+ background-image: url("https://i.imgur.com/5vKzJaw.png");
+ background-repeat: no-repeat;
+ background-size: 400px 375px;
+}
